@@ -53,6 +53,7 @@
     <Compile Include="EntityMapping.cs" />
     <Compile Include="IEntityMapping.cs" />
     <Compile Include="ISoftDbContext.cs" />
+    <Compile Include="Mappings\DemoMapping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -60,7 +61,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Mappings\" />
     <Folder Include="SqlScript\" />
   </ItemGroup>
   <ItemGroup>

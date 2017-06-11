@@ -1,0 +1,5 @@
+F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.EntityDTO\bin\Debug\Angus.ISoft.Boilerplate.EntityDTO.dll
+F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.EntityDTO\bin\Debug\Angus.ISoft.Boilerplate.EntityDTO.pdb
+F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.EntityDTO\obj\Debug\Angus.ISoft.Boilerplate.EntityDTO.csprojResolveAssemblyReference.cache
+F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.EntityDTO\obj\Debug\Angus.ISoft.Boilerplate.EntityDTO.dll
+F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.EntityDTO\obj\Debug\Angus.ISoft.Boilerplate.EntityDTO.pdb

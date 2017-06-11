@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IBaseService.cs" />
+    <Compile Include="IDemoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -56,6 +57,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Angus.ISoft.Boilerplate.Entity\Angus.ISoft.Boilerplate.Entity.csproj">
+      <Project>{8369aee7-1237-454f-99f9-ed075e0758f4}</Project>
+      <Name>Angus.ISoft.Boilerplate.Entity</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Angus.ISoft.Boilerplate.Infrastructure\Angus.ISoft.Boilerplate.Infrastructure.csproj">
       <Project>{77f95b82-60e4-4f7e-931c-b46b38acc88a}</Project>
       <Name>Angus.ISoft.Boilerplate.Infrastructure</Name>

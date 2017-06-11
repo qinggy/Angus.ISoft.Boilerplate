@@ -2,3 +2,4 @@ F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Entity\bin\Debug\An
 F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Entity\bin\Debug\Angus.ISoft.Boilerplate.Entity.pdb
 F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Entity\obj\Debug\Angus.ISoft.Boilerplate.Entity.dll
 F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Entity\obj\Debug\Angus.ISoft.Boilerplate.Entity.pdb
+F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Entity\obj\Debug\Angus.ISoft.Boilerplate.Entity.csprojResolveAssemblyReference.cache

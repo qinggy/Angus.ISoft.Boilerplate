@@ -20,3 +20,5 @@ F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Service\bin\Debug\N
 F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Service\bin\Debug\StackExchange.Redis.xml
 F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Service\obj\Debug\Angus.ISoft.Boilerplate.Service.dll
 F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Service\obj\Debug\Angus.ISoft.Boilerplate.Service.pdb
+F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Service\bin\Debug\AutoMapper.dll
+F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Service\bin\Debug\AutoMapper.xml

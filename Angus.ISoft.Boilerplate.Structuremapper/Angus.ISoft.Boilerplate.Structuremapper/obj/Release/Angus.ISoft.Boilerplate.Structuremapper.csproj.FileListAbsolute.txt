@@ -1,0 +1,6 @@
+F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Structuremapper\Angus.ISoft.Boilerplate.Structuremapper\bin\Release\Angus.ISoft.Boilerplate.Structuremapper.dll
+F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Structuremapper\Angus.ISoft.Boilerplate.Structuremapper\bin\Release\Angus.ISoft.Boilerplate.Structuremapper.pdb
+F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Structuremapper\Angus.ISoft.Boilerplate.Structuremapper\bin\Release\StructureMap.dll
+F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Structuremapper\Angus.ISoft.Boilerplate.Structuremapper\bin\Release\StructureMap.xml
+F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Structuremapper\Angus.ISoft.Boilerplate.Structuremapper\obj\Release\Angus.ISoft.Boilerplate.Structuremapper.dll
+F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Structuremapper\Angus.ISoft.Boilerplate.Structuremapper\obj\Release\Angus.ISoft.Boilerplate.Structuremapper.pdb
