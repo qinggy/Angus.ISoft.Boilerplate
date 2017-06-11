@@ -1,7 +1,0 @@
-F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Structuremapper\Angus.ISoft.Boilerplate.Structuremapper\bin\Debug\Angus.ISoft.Boilerplate.Structuremapper.dll
-F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Structuremapper\Angus.ISoft.Boilerplate.Structuremapper\bin\Debug\Angus.ISoft.Boilerplate.Structuremapper.pdb
-F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Structuremapper\Angus.ISoft.Boilerplate.Structuremapper\bin\Debug\StructureMap.dll
-F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Structuremapper\Angus.ISoft.Boilerplate.Structuremapper\bin\Debug\StructureMap.xml
-F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Structuremapper\Angus.ISoft.Boilerplate.Structuremapper\obj\Debug\Angus.ISoft.Boilerplate.Structuremapper.csprojResolveAssemblyReference.cache
-F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Structuremapper\Angus.ISoft.Boilerplate.Structuremapper\obj\Debug\Angus.ISoft.Boilerplate.Structuremapper.dll
-F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Structuremapper\Angus.ISoft.Boilerplate.Structuremapper\obj\Debug\Angus.ISoft.Boilerplate.Structuremapper.pdb
