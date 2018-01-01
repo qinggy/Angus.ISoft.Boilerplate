@@ -9,25 +9,25 @@ using Swagger.Net;
 
 //[assembly: WebActivator.PreApplicationStartMethod(typeof(Angus.ISoft.Boilerplate.WebApi.App_Start.SwaggerNet), "PreStart")]
 //[assembly: WebActivator.PostApplicationStartMethod(typeof(Angus.ISoft.Boilerplate.WebApi.App_Start.SwaggerNet), "PostStart")]
-namespace Angus.ISoft.Boilerplate.WebApi.App_Start 
+namespace Angus.ISoft.Boilerplate.WebApi.App_Start
 {
-    public static class SwaggerNet 
+    public static class SwaggerNet
     {
-        public static void PreStart() 
+        public static void PreStart()
         {
             RouteTable.Routes.MapHttpRoute(
                 name: "SwaggerApi",
                 routeTemplate: "api/docs/{controller}",
                 defaults: new { swagger = true }
-            );            
+            );
         }
-        
-        public static void PostStart() 
+
+        public static void PostStart()
         {
             var config = GlobalConfiguration.Configuration;
 
             config.Filters.Add(new SwaggerActionFilter());
-            
+
             try
             {
                 config.Services.Replace(typeof(IDocumentationProvider),

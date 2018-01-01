@@ -7,9 +7,12 @@ using System.Web.Http;
 
 namespace Angus.ISoft.Boilerplate.WebApi.Controllers
 {
+    [RoutePrefix("api/v1/values")]
     public class ValuesController : ApiController
     {
         // GET api/values
+        [HttpGet]
+        [Route("list")]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
