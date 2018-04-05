@@ -103,6 +103,3 @@ F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boi
 F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.WebApi\obj\Debug\Angus.ISoft.Boilerplate.WebApi.csprojResolveAssemblyReference.cache
 F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.WebApi\obj\Debug\Angus.ISoft.Boilerplate.WebApi.dll
 F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.WebApi\obj\Debug\Angus.ISoft.Boilerplate.WebApi.pdb
-F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\Swagger.Net.dll
-F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\Swagger.Net.pdb
-F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\Swagger.Net.xml
