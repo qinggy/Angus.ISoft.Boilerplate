@@ -1,4 +1,4 @@
-﻿using Angus.ISoft.Boilerplate.Entity;
+﻿using Angus.ISoft.Boilerplate.DbModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;

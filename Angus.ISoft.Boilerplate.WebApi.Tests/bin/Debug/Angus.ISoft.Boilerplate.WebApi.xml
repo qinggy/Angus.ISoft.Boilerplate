@@ -550,5 +550,15 @@
             <param name="beinetkey"></param>
             <returns></returns>
         </member>
+        <member name="T:Angus.ISoft.Boilerplate.WebApi.Infrastructure.ServiceActivator">
+            <summary>
+            webapi 服务创建工厂
+            </summary>
+        </member>
+        <member name="T:Angus.ISoft.Boilerplate.Infrastructure.StructureMapControllerFactory">
+            <summary>
+            MVC Controller初始化工厂
+            </summary>
+        </member>
     </members>
 </doc>

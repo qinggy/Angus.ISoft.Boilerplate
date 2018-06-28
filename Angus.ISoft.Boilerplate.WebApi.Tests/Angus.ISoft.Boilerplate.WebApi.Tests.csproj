@@ -35,6 +35,10 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="StructureMap, Version=4.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StructureMap.4.5.0\lib\net45\StructureMap.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -102,6 +106,18 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Angus.ISoft.Boilerplate.DbModel\Angus.ISoft.Boilerplate.DbModel.csproj">
+      <Project>{8369aee7-1237-454f-99f9-ed075e0758f4}</Project>
+      <Name>Angus.ISoft.Boilerplate.DbModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Angus.ISoft.Boilerplate.ServiceImpl\Angus.ISoft.Boilerplate.ServiceImpl.csproj">
+      <Project>{0916df5f-f9cd-4aa1-b946-b97c59d07fb5}</Project>
+      <Name>Angus.ISoft.Boilerplate.ServiceImpl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Angus.ISoft.Boilerplate.ServiceInterface\Angus.ISoft.Boilerplate.ServiceInterface.csproj">
+      <Project>{13066865-7926-4487-87f9-035a75f941b0}</Project>
+      <Name>Angus.ISoft.Boilerplate.ServiceInterface</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Angus.ISoft.Boilerplate.WebApi\Angus.ISoft.Boilerplate.WebApi.csproj">
       <Project>{1B3CA6EE-C6AD-4370-9457-BFA82880E35E}</Project>
       <Name>Angus.ISoft.Boilerplate.WebApi</Name>

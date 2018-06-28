@@ -12,6 +12,9 @@
                                 * Copyright (c) ISoft 2017. All rights reserved.
 ***********************************************************************************/
 
+
+using Angus.ISoft.Boilerplate.DbModel;
+using Angus.ISoft.Boilerplate.Service;
 using StructureMap;
 
 namespace Angus.ISoft.Boilerplate.Infrastructure
@@ -21,7 +24,15 @@ namespace Angus.ISoft.Boilerplate.Infrastructure
         //映射关系关联
         public PublicRepositoryRegistry()
         {
-            //For<IAccountService>().Use<AccountService>();
+            //For<IDemoService>().Use<DemoService>();
+            Scan(s =>
+            {
+                s.AssembliesFromApplicationBaseDirectory(f =>
+                {
+                    return f.FullName.Contains("Angus.ISoft.Boilerplate.Service");
+                });
+                s.WithDefaultConventions();
+            });
         }
     }
 }

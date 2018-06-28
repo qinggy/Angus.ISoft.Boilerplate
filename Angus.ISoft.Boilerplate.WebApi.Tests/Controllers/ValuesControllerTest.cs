@@ -7,6 +7,8 @@ using System.Web.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Angus.ISoft.Boilerplate.WebApi;
 using Angus.ISoft.Boilerplate.WebApi.Controllers;
+using StructureMap;
+using Angus.ISoft.Boilerplate.Service;
 
 namespace Angus.ISoft.Boilerplate.WebApi.Tests.Controllers
 {
@@ -17,7 +19,7 @@ namespace Angus.ISoft.Boilerplate.WebApi.Tests.Controllers
         public void Get()
         {
             // 排列
-            ValuesController controller = new ValuesController();
+            ValuesController controller = new ValuesController(new DemoService());
 
             // 操作
             IEnumerable<string> result = controller.Get();
@@ -33,7 +35,7 @@ namespace Angus.ISoft.Boilerplate.WebApi.Tests.Controllers
         public void GetById()
         {
             // 排列
-            ValuesController controller = new ValuesController();
+            ValuesController controller = null;
 
             // 操作
             string result = controller.Get(5);
@@ -46,7 +48,7 @@ namespace Angus.ISoft.Boilerplate.WebApi.Tests.Controllers
         public void Post()
         {
             // 排列
-            ValuesController controller = new ValuesController();
+            ValuesController controller = null;
 
             // 操作
             controller.Post("value");
@@ -58,7 +60,7 @@ namespace Angus.ISoft.Boilerplate.WebApi.Tests.Controllers
         public void Put()
         {
             // 排列
-            ValuesController controller = new ValuesController();
+            ValuesController controller = null;
 
             // 操作
             controller.Put(5, "value");
@@ -70,7 +72,7 @@ namespace Angus.ISoft.Boilerplate.WebApi.Tests.Controllers
         public void Delete()
         {
             // 排列
-            ValuesController controller = new ValuesController();
+            ValuesController controller = null;
 
             // 操作
             controller.Delete(5);

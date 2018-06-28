@@ -23,11 +23,13 @@ using System.Web.Mvc;
 
 namespace Angus.ISoft.Boilerplate.Infrastructure
 {
+    /// <summary>
+    /// MVC Controller初始化工厂
+    /// </summary>
     public class StructureMapControllerFactory : DefaultControllerFactory
     {
         protected override IController GetControllerInstance(System.Web.Routing.RequestContext requestContext, Type controllerType)
         {
-
             if (requestContext == null || controllerType == null) return null;
 
             return (Controller)ObjectFactory.Container.GetInstance(controllerType);
@@ -38,7 +40,8 @@ namespace Angus.ISoft.Boilerplate.Infrastructure
     {
         public static void Register()
         {
-            ControllerBuilder.Current.SetControllerFactory(new StructureMapControllerFactory());
+            // MVC替换Controller默认创建工厂
+            // ControllerBuilder.Current.SetControllerFactory(new StructureMapControllerFactory());
             ObjectFactory.Initialize<PublicRepositoryRegistry>();
         }
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Angus.ISoft.Boilerplate.Service;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -10,6 +11,12 @@ namespace Angus.ISoft.Boilerplate.WebApi.Controllers
     [RoutePrefix("api/v1/values")]
     public class ValuesController : ApiController
     {
+        private readonly IDemoService demoService;
+        public ValuesController(IDemoService _demoService)
+        {
+            demoService = _demoService;
+        }
+
         // GET api/values
         [HttpGet]
         [Route("list")]

@@ -61,9 +61,9 @@
     <Compile Include="Session\TimestampConverter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Angus.ISoft.Boilerplate.Entity\Angus.ISoft.Boilerplate.Entity.csproj">
+    <ProjectReference Include="..\Angus.ISoft.Boilerplate.DbModel\Angus.ISoft.Boilerplate.DbModel.csproj">
       <Project>{8369aee7-1237-454f-99f9-ed075e0758f4}</Project>
-      <Name>Angus.ISoft.Boilerplate.Entity</Name>
+      <Name>Angus.ISoft.Boilerplate.DbModel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

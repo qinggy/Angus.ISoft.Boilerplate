@@ -10,3 +10,15 @@ F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debu
 F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\EntityFramework.SqlServer.xml
 F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\obj\Debug\Angus.ISoft.Boilerplate.Repository.dll
 F:\WorkSpace\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\obj\Debug\Angus.ISoft.Boilerplate.Repository.pdb
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\obj\Debug\Angus.ISoft.Boilerplate.Repository.csprojResolveAssemblyReference.cache
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\obj\Debug\Angus.ISoft.Boilerplate.Repository.dll
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\obj\Debug\Angus.ISoft.Boilerplate.Repository.pdb
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\Angus.ISoft.Boilerplate.Repository.dll.config
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\Angus.ISoft.Boilerplate.Repository.dll
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\Angus.ISoft.Boilerplate.Repository.pdb
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\EntityFramework.dll
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\EntityFramework.xml
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\Angus.ISoft.Boilerplate.DbModel.dll
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\Angus.ISoft.Boilerplate.DbModel.pdb

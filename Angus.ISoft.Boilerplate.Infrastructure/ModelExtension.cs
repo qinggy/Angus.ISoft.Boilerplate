@@ -20,7 +20,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using BaseEntity = Angus.ISoft.Boilerplate.Entity;
+using BaseEntity = Angus.ISoft.Boilerplate.DbModel;
 
 namespace Angus.ISoft.Boilerplate.Infrastructure
 {
@@ -74,7 +74,6 @@ namespace Angus.ISoft.Boilerplate.Infrastructure
 
             return false;
         }
-
 
         public static IEnumerable<TSource> DistinctBy<TSource, TKey>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector)
         {
@@ -156,6 +155,7 @@ namespace Angus.ISoft.Boilerplate.Infrastructure
 
             typedMapping(source, target);
         }
+        
         public static void CopyFromWithChangeList<T>(this T target, T source, List<string> ChangeList)
            where T : BaseEntity.Entity
         {

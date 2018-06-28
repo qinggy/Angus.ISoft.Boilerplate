@@ -1,7 +1,7 @@
 # Angus.ISoft.Boilerplate
-项目基本框架
+参照asp.net boilerplate project写的一个通用型程序框架
 
-项目使用DDD开发模式
+使用DDD开发模式，包好
 ORM EF Code First
 StructureMap
-AutoMapper
+AutoMapper Swagger-UI等技术

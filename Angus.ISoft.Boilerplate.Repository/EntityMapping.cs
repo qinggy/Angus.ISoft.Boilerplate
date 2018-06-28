@@ -20,7 +20,7 @@ using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BaseEntity = Angus.ISoft.Boilerplate.Entity;
+using BaseEntity = Angus.ISoft.Boilerplate.DbModel;
 
 namespace Angus.ISoft.Boilerplate.Repository
 {

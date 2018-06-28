@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.Repository", "Angus.ISoft.Boilerplate.Repository\Angus.ISoft.Boilerplate.Repository.csproj", "{3BF908F2-FE99-433F-8710-22705F2AEA52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.Service", "Angus.ISoft.Boilerplate.Common\Angus.ISoft.Boilerplate.Service.csproj", "{13066865-7926-4487-87F9-035A75F941B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.ServiceInterface", "Angus.ISoft.Boilerplate.ServiceInterface\Angus.ISoft.Boilerplate.ServiceInterface.csproj", "{13066865-7926-4487-87F9-035A75F941B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.ServiceImpl", "Angus.ISoft.Boilerplate.Service\Angus.ISoft.Boilerplate.ServiceImpl.csproj", "{0916DF5F-F9CD-4AA1-B946-B97C59D07FB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.ServiceImpl", "Angus.ISoft.Boilerplate.ServiceImpl\Angus.ISoft.Boilerplate.ServiceImpl.csproj", "{0916DF5F-F9CD-4AA1-B946-B97C59D07FB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.Entity", "Angus.ISoft.Boilerplate.Entity\Angus.ISoft.Boilerplate.Entity.csproj", "{8369AEE7-1237-454F-99F9-ED075E0758F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.DbModel", "Angus.ISoft.Boilerplate.DbModel\Angus.ISoft.Boilerplate.DbModel.csproj", "{8369AEE7-1237-454F-99F9-ED075E0758F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.Infrastructure", "Angus.ISoft.Boilerplate.Infrastructure\Angus.ISoft.Boilerplate.Infrastructure.csproj", "{77F95B82-60E4-4F7E-931C-B46B38ACC88A}"
 EndProject
@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.Web
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.WebApi.Tests", "Angus.ISoft.Boilerplate.WebApi.Tests\Angus.ISoft.Boilerplate.WebApi.Tests.csproj", "{8619B0D5-5B58-4CCE-97E5-D611DE38EB7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.EntityDTO", "Angus.ISoft.Boilerplate.EntityDTO\Angus.ISoft.Boilerplate.EntityDTO.csproj", "{A62DEF01-8552-42B2-812C-D1F51F1DE0BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.Domain", "Angus.ISoft.Boilerplate.Domain\Angus.ISoft.Boilerplate.Domain.csproj", "{A62DEF01-8552-42B2-812C-D1F51F1DE0BB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.WebUI", "Angus.ISoft.Boilerplate.WebUI\Angus.ISoft.Boilerplate.WebUI.csproj", "{3822F030-2678-4B68-8C4A-6798475774DF}"
 EndProject
