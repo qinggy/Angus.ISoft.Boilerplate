@@ -1,8 +1,9 @@
-﻿using Angus.ISoft.Boilerplate.WebApi.Infrastructure;
+﻿using Angus.ISoft.Boilerplate.WebApi.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using System.Web.Http.Dispatcher;
 
 namespace Angus.ISoft.Boilerplate.WebApi
@@ -13,6 +14,7 @@ namespace Angus.ISoft.Boilerplate.WebApi
         {
             // Web API 配置和服务
             config.Services.Replace(typeof(IHttpControllerActivator), new ServiceActivator(config));
+            config.EnableCors(new EnableCorsAttribute("*", "*", "*"));
             // Web API 路由
             config.MapHttpAttributeRoutes();
 

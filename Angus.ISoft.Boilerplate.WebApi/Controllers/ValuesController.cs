@@ -1,4 +1,5 @@
-﻿using Angus.ISoft.Boilerplate.Service;
+﻿using Angus.ISoft.Boilerplate.Infrastructure.Log;
+using Angus.ISoft.Boilerplate.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +23,8 @@ namespace Angus.ISoft.Boilerplate.WebApi.Controllers
         [Route("list")]
         public IEnumerable<string> Get()
         {
+            LoggerHelper.Debug("Debug");
+            LoggerHelper.Info("Info");
             return new string[] { "value1", "value2" };
         }
 

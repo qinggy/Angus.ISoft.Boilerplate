@@ -170,3 +170,10 @@ C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\EntityFramew
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\StackExchange.Redis.xml
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\EntityFramework.SqlServer.dll
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\EntityFramework.SqlServer.xml
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\Angus.ISoft.Boilerplate.Domain.dll
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\Angus.ISoft.Boilerplate.Domain.pdb
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\System.Web.Cors.dll
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\System.Web.Http.Cors.dll
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\System.Web.Http.Cors.xml
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\log4net.dll
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\log4net.xml

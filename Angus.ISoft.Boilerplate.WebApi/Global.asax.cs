@@ -1,5 +1,4 @@
-﻿using Angus.ISoft.Boilerplate.Infrastructure;
-using Angus.ISoft.Boilerplate.WebApi.Infrastructure;
+﻿using Angus.ISoft.Boilerplate.WebApi.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +23,7 @@ namespace Angus.ISoft.Boilerplate.WebApi
             //启动映射关系注册
             BootStrapStructureMapper.Register();
             //实体映射
-            AutoMapperWebProfile.Run();
+            AutoMapperWebProfile.Register();
         }
     }
 }

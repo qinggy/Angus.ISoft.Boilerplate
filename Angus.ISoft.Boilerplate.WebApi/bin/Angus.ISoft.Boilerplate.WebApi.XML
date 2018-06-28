@@ -481,7 +481,7 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
-        <member name="T:Angus.ISoft.Boilerplate.WebApi.Infrastructure.AutoMapperWebProfile">
+        <member name="T:Angus.ISoft.Boilerplate.WebApi.Core.AutoMapperWebProfile">
             <summary>
             实体映射
             </summary>
@@ -550,12 +550,12 @@
             <param name="beinetkey"></param>
             <returns></returns>
         </member>
-        <member name="T:Angus.ISoft.Boilerplate.WebApi.Infrastructure.ServiceActivator">
+        <member name="T:Angus.ISoft.Boilerplate.WebApi.Core.ServiceActivator">
             <summary>
             webapi 服务创建工厂
             </summary>
         </member>
-        <member name="T:Angus.ISoft.Boilerplate.Infrastructure.StructureMapControllerFactory">
+        <member name="T:Angus.ISoft.Boilerplate.WebApi.Core.StructureMapControllerFactory">
             <summary>
             MVC Controller初始化工厂
             </summary>
