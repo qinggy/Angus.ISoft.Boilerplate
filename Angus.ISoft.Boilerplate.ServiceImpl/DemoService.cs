@@ -9,5 +9,12 @@ namespace Angus.ISoft.Boilerplate.Service
 {
     public class DemoService : BaseService<DemoClass>, IDemoService
     {
+        private readonly IDemoService1 demoService1;
+        public DemoService(IDemoService1 _demoService1)
+        {
+            demoService1 = _demoService1;
+        }
+
+
     }
 }

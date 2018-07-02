@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="IBaseService.cs" />
     <Compile Include="IDemoService.cs" />
+    <Compile Include="IDemoService1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
