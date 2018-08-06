@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -201,6 +202,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Core\AuthTokenHeaderParameter.cs" />
     <Compile Include="ExtensionAttribute\ActionLogAttribute.cs" />
     <Compile Include="ExtensionAttribute\BaseLogAttribute.cs" />
     <Compile Include="ExtensionAttribute\LoginAuthorizeAttribute.cs" />

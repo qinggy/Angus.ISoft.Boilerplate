@@ -22,3 +22,5 @@ C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\En
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\EntityFramework.SqlServer.xml
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\Angus.ISoft.Boilerplate.DbModel.dll
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\Angus.ISoft.Boilerplate.DbModel.pdb
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\obj\Debug\Angus.ISoft.Boilerplate.Repository.csproj.CoreCompileInputs.cache
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\obj\Debug\Angus.ISoft.Boilerplate.Repository.csproj.CopyComplete

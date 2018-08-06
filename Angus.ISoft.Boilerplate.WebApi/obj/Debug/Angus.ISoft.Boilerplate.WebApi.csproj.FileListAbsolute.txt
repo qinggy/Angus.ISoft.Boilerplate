@@ -177,3 +177,8 @@ C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\System.Web.H
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\System.Web.Http.Cors.xml
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\log4net.dll
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\log4net.xml
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\Angus.ISoft.Boilerplate.ServiceInterface.dll.config
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\Angus.ISoft.Boilerplate.ServiceImpl.dll.config
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\Angus.ISoft.Boilerplate.Repository.dll.config
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\obj\Debug\Angus.ISoft.Boilerplate.WebApi.csproj.CoreCompileInputs.cache
+C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi\obj\Debug\Angus.ISoft.Boilerplate.WebApi.csproj.CopyComplete
