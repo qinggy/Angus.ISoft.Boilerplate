@@ -19,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.Web
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.Domain", "Angus.ISoft.Boilerplate.Domain\Angus.ISoft.Boilerplate.Domain.csproj", "{A62DEF01-8552-42B2-812C-D1F51F1DE0BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angus.ISoft.Boilerplate.WebUI", "Angus.ISoft.Boilerplate.WebUI\Angus.ISoft.Boilerplate.WebUI.csproj", "{3822F030-2678-4B68-8C4A-6798475774DF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,10 +57,6 @@ Global
 		{A62DEF01-8552-42B2-812C-D1F51F1DE0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A62DEF01-8552-42B2-812C-D1F51F1DE0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A62DEF01-8552-42B2-812C-D1F51F1DE0BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3822F030-2678-4B68-8C4A-6798475774DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3822F030-2678-4B68-8C4A-6798475774DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3822F030-2678-4B68-8C4A-6798475774DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3822F030-2678-4B68-8C4A-6798475774DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
