@@ -1,4 +1,5 @@
 ﻿using Angus.ISoft.Boilerplate.WebApi.Core;
+using Microsoft.Owin.Security.OAuth;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,7 @@ namespace Angus.ISoft.Boilerplate.WebApi
         {
             // Web API 配置和服务
             config.Services.Replace(typeof(IHttpControllerActivator), new ServiceActivator(config));
+            config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
             config.EnableCors(new EnableCorsAttribute("*", "*", "*"));
             // Web API 路由
             config.MapHttpAttributeRoutes();

@@ -9,6 +9,7 @@ using System.Web.Http;
 
 namespace Angus.ISoft.Boilerplate.WebApi.Controllers
 {
+    [Authorize]
     [RoutePrefix("api/v1/values")]
     public class ValuesController : ApiController
     {

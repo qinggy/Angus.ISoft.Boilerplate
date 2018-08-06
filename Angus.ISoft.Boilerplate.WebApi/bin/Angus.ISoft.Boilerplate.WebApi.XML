@@ -481,6 +481,16 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
+        <member name="T:Angus.ISoft.Boilerplate.WebApi.Core.AuthorizationServerProvider">
+            <summary>
+            自定义 oauth 的授权验证
+            </summary>
+        </member>
+        <member name="T:Angus.ISoft.Boilerplate.WebApi.Core.JwtTokenFormat">
+            <summary>
+            自定义 jwt token 的格式 
+            </summary>
+        </member>
         <member name="T:Angus.ISoft.Boilerplate.WebApi.Core.AutoMapperWebProfile">
             <summary>
             实体映射
