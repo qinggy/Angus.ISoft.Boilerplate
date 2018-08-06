@@ -32,7 +32,7 @@ namespace Angus.ISoft.Boilerplate.WebApi
                 //生产环境设为false
                 AllowInsecureHttp = true,
                 //请求token的路径
-                TokenEndpointPath = new PathString("/oauth2/token"),
+                TokenEndpointPath = new PathString("/oauth2/token"), //username:admin password:admin grant_type:password
                 AccessTokenExpireTimeSpan = TimeSpan.FromDays(30),
                 //请求获取token时，验证username, password
                 Provider = new AuthorizationServerProvider(),
