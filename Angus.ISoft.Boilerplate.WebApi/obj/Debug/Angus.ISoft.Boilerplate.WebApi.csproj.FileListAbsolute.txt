@@ -256,3 +256,5 @@ F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boi
 F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.WebApi\obj\Debug\Angus.ISoft.Boilerplate.WebApi.csprojAssemblyReference.cache
 F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.WebApi\obj\Debug\Angus.ISoft.Boilerplate.WebApi.csproj.CoreCompileInputs.cache
 F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.WebApi\obj\Debug\Angus.ISoft.Boilerplate.WebApi.csproj.CopyComplete
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\JWT.dll
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\JWT.xml

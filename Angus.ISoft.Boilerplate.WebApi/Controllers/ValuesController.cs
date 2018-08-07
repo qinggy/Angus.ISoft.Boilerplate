@@ -1,5 +1,6 @@
 ﻿using Angus.ISoft.Boilerplate.Infrastructure.Log;
 using Angus.ISoft.Boilerplate.Service;
+using Angus.ISoft.Boilerplate.WebApi.ExtensionAttribute;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,6 @@ using System.Web.Http;
 
 namespace Angus.ISoft.Boilerplate.WebApi.Controllers
 {
-    [Authorize]
     [RoutePrefix("api/v1/values")]
     public class ValuesController : ApiController
     {
@@ -22,6 +22,7 @@ namespace Angus.ISoft.Boilerplate.WebApi.Controllers
         // GET api/values
         [HttpGet]
         [Route("list")]
+        [JwtAuth]
         public IEnumerable<string> Get()
         {
             LoggerHelper.Debug("Debug");
