@@ -36,12 +36,12 @@ namespace Angus.ISoft.Boilerplate.WebApi.Core
         }
     }
 
-    public static class BootStrapStructureMapper
+    public static class BootStrapMVCStructureMapper
     {
         public static void Register()
         {
             // MVC替换Controller默认创建工厂
-            // ControllerBuilder.Current.SetControllerFactory(new StructureMapControllerFactory());
+            ControllerBuilder.Current.SetControllerFactory(new StructureMapControllerFactory());
             ObjectFactory.Initialize<PublicRepositoryRegistry>();
         }
     }

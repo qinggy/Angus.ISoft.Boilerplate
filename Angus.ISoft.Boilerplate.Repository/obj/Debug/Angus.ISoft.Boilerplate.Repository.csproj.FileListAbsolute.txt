@@ -24,3 +24,17 @@ C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\An
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\Angus.ISoft.Boilerplate.DbModel.pdb
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\obj\Debug\Angus.ISoft.Boilerplate.Repository.csproj.CoreCompileInputs.cache
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.Repository\obj\Debug\Angus.ISoft.Boilerplate.Repository.csproj.CopyComplete
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\Angus.ISoft.Boilerplate.Repository.dll.config
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\Angus.ISoft.Boilerplate.Repository.dll
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\Angus.ISoft.Boilerplate.Repository.pdb
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\Angus.ISoft.Boilerplate.DbModel.dll
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\EntityFramework.dll
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\EntityFramework.SqlServer.dll
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\Angus.ISoft.Boilerplate.DbModel.pdb
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\EntityFramework.xml
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\bin\Debug\EntityFramework.SqlServer.xml
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\obj\Debug\Angus.ISoft.Boilerplate.Repository.csprojAssemblyReference.cache
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\obj\Debug\Angus.ISoft.Boilerplate.Repository.csproj.CoreCompileInputs.cache
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\obj\Debug\Angus.ISoft.Boilerplate.Repository.csproj.CopyComplete
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\obj\Debug\Angus.ISoft.Boilerplate.Repository.dll
+F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.Repository\obj\Debug\Angus.ISoft.Boilerplate.Repository.pdb

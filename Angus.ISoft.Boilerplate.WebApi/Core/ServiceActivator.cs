@@ -22,4 +22,12 @@ namespace Angus.ISoft.Boilerplate.WebApi.Core
             return ObjectFactory.Container.GetInstance(controllerType) as IHttpController;
         }
     }
+
+    public static class BootStrapStructureMapper
+    {
+        public static void Register()
+        {
+            ObjectFactory.Initialize<PublicRepositoryRegistry>();
+        }
+    }
 }

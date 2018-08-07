@@ -10,7 +10,8 @@ namespace Angus.ISoft.Boilerplate.WebApi
     {
         public void Configuration(IAppBuilder app)
         {
-            this.ConfigureOAuth(app);
+            // use simple way to generate token
+            // this.ConfigureOAuth(app);
         }
     }
 }
