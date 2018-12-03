@@ -481,6 +481,19 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
+        <member name="T:Angus.ISoft.Boilerplate.WebApi.Controllers.AccountController">
+            <summary>
+            账户
+            </summary>
+        </member>
+        <member name="M:Angus.ISoft.Boilerplate.WebApi.Controllers.AccountController.Login(System.String,System.String)">
+            <summary>
+            登录
+            </summary>
+            <param name="username">用户名</param>
+            <param name="password">密码</param>
+            <returns></returns>
+        </member>
         <member name="T:Angus.ISoft.Boilerplate.WebApi.Core.AuthorizationServerProvider">
             <summary>
             自定义 oauth 的授权验证

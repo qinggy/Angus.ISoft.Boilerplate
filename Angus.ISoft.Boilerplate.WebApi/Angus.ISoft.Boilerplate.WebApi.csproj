@@ -246,6 +246,7 @@
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Core\AuthorizationServerProvider.cs" />
     <Compile Include="Core\JwtTokenFormat.cs" />
+    <Compile Include="Core\SwaggerControllerDesProvider.cs" />
     <Compile Include="Core\SwaggerTokenHeaderParameter.cs" />
     <Compile Include="ExtensionAttribute\ActionLogAttribute.cs" />
     <Compile Include="ExtensionAttribute\AuthenticationFailureResult.cs" />
@@ -302,6 +303,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\Swagger\swagger_lang.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

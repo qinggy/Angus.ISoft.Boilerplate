@@ -104,6 +104,7 @@ namespace Angus.ISoft.Boilerplate.WebApi
                         // more Xml comment files.
                         //
                         //c.IncludeXmlComments(GetXmlCommentsPath());
+                        c.IncludeXmlComments(GetXmlCommentsPath());
 
                         // Swashbuckle makes a best attempt at generating Swagger compliant JSON schemas for the various types
                         // exposed in your API. However, there may be occasions when more control of the output is needed.
@@ -178,6 +179,7 @@ namespace Angus.ISoft.Boilerplate.WebApi
                         // alternative implementation for ISwaggerProvider with the CustomProvider option.
                         //
                         //c.CustomProvider((defaultProvider) => new CachingSwaggerProvider(defaultProvider));
+                        c.CustomProvider(defaultProvider => new SwaggerControllerDesProvider(defaultProvider, GetXmlCommentsPath()));
                     })
                 .EnableSwaggerUi(c =>
                     {
@@ -197,6 +199,7 @@ namespace Angus.ISoft.Boilerplate.WebApi
                         // "Logical Name" is passed to the method as shown above.
                         //
                         //c.InjectJavaScript(thisAssembly, "Swashbuckle.Dummy.SwaggerExtensions.testScript1.js");
+                        c.InjectJavaScript(thisAssembly, "Angus.ISoft.Boilerplate.WebApi.Scripts.Swagger.swagger_lang.js");
 
                         // The swagger-ui renders boolean data types as a dropdown. By default, it provides "true" and "false"
                         // strings as the possible choices. You can use this option to change these to something else,
@@ -252,6 +255,11 @@ namespace Angus.ISoft.Boilerplate.WebApi
                         //
                         //c.EnableApiKeySupport("apiKey", "header");
                     });
+        }
+
+        protected static string GetXmlCommentsPath()
+        {
+            return System.String.Format(@"{0}\bin\Angus.ISoft.Boilerplate.WebApi.XML", System.AppDomain.CurrentDomain.BaseDirectory);
         }
     }
 }

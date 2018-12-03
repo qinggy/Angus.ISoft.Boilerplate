@@ -1,6 +1,7 @@
 ﻿using Angus.ISoft.Boilerplate.Infrastructure.Log;
 using Angus.ISoft.Boilerplate.Service;
 using Angus.ISoft.Boilerplate.WebApi.ExtensionAttribute;
+using Swashbuckle.Swagger.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +24,7 @@ namespace Angus.ISoft.Boilerplate.WebApi.Controllers
         [HttpGet]
         [Route("list")]
         [JwtAuth]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(Array))]
         public IEnumerable<string> Get()
         {
             LoggerHelper.Debug("Debug");
