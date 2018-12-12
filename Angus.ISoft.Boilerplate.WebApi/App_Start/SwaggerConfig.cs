@@ -106,6 +106,7 @@ namespace Angus.ISoft.Boilerplate.WebApi
                         //
                         //c.IncludeXmlComments(GetXmlCommentsPath());
                         c.IncludeXmlComments(GetXmlCommentsPath());
+                        c.IncludeXmlComments(GetDomainXmlCommentsPath());
 
                         // Swashbuckle makes a best attempt at generating Swagger compliant JSON schemas for the various types
                         // exposed in your API. However, there may be occasions when more control of the output is needed.
@@ -262,6 +263,11 @@ namespace Angus.ISoft.Boilerplate.WebApi
         protected static string GetXmlCommentsPath()
         {
             return System.String.Format(@"{0}\bin\Angus.ISoft.Boilerplate.WebApi.XML", System.AppDomain.CurrentDomain.BaseDirectory);
+        }
+
+        protected static string GetDomainXmlCommentsPath()
+        {
+            return System.String.Format(@"{0}\bin\Angus.ISoft.Boilerplate.Domain.xml", System.AppDomain.CurrentDomain.BaseDirectory);
         }
     }
 }

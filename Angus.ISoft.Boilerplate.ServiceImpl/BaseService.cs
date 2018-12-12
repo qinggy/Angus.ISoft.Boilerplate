@@ -189,7 +189,7 @@ namespace Angus.ISoft.Boilerplate.Service
             this.DbContext.SaveChanges();
         }
 
-        public async Task UpdateAsync(T entity)
+        public async void UpdateAsync(T entity)
         {
             //this.DbSet.Attach(entity);
             //this.DbContext.Entry(entity).State = EntityState.Modified;

@@ -260,3 +260,5 @@ F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boi
 F:\CodeStructure\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\JWT.xml
 C:\Workspace\backend\boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\JWT.dll
 C:\Workspace\backend\boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\JWT.xml
+C:\Workspace\backend\boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\Scripts\Swagger\swagger_lang.js
+C:\Workspace\backend\boilerplate\Angus.ISoft.Boilerplate.WebApi\bin\Angus.ISoft.Boilerplate.Domain.xml
