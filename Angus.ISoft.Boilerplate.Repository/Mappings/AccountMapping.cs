@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Angus.ISoft.Boilerplate.Repository.Mappings
 {
-    public class DemoMapping : EntityMapping<DemoClass>
+    public class AccountMapping : EntityMapping<Account>
     {
-        public DemoMapping()
+        public AccountMapping()
         {
-            ToTable("DemoClass");
+            ToTable("t_base_account");
         }
     }
 }

@@ -58,8 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseService.cs" />
-    <Compile Include="DemoService.cs" />
-    <Compile Include="DemoService1.cs" />
+    <Compile Include="AccountService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceRegister.cs" />
   </ItemGroup>
@@ -68,6 +67,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Angus.ISoft.Boilerplate.Domain\Angus.ISoft.Boilerplate.Domain.csproj">
+      <Project>{A62DEF01-8552-42B2-812C-D1F51F1DE0BB}</Project>
+      <Name>Angus.ISoft.Boilerplate.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Angus.ISoft.Boilerplate.ServiceInterface\Angus.ISoft.Boilerplate.ServiceInterface.csproj">
       <Project>{13066865-7926-4487-87f9-035a75f941b0}</Project>
       <Name>Angus.ISoft.Boilerplate.ServiceInterface</Name>

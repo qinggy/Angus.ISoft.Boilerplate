@@ -19,7 +19,7 @@ namespace Angus.ISoft.Boilerplate.WebApi.Tests.Controllers
         public void Get()
         {
             // 排列
-            ValuesController controller = new ValuesController(new DemoService());
+            ValuesController controller = new ValuesController(new AccountService());
 
             // 操作
             IEnumerable<string> result = controller.Get();

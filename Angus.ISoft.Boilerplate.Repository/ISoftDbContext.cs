@@ -8,8 +8,6 @@
 *修改说明：
 *创建时间：
 *更新时间：
-***********************************************************************************
-                                * Copyright @ ISoft 2017. All rights reserved.
 ***********************************************************************************/
 
 using System;
@@ -44,7 +42,6 @@ namespace Angus.ISoft.Boilerplate.Repository
             : base(_connectionStr)
         {
             //播种Seed
-
             Database.SetInitializer<ISoftDbContext>(new DbContextInitializer());
         }
 

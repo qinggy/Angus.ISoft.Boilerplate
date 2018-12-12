@@ -8,8 +8,6 @@
 *修改说明：
 *创建时间：
 *更新时间：
-***********************************************************************************
-                                * Copyright @ ISoft 2017. All rights reserved.
 ***********************************************************************************/
 
 using Angus.ISoft.Boilerplate.Infrastructure;
@@ -19,6 +17,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Angus.ISoft.Boilerplate.Service
 {
@@ -30,7 +29,7 @@ namespace Angus.ISoft.Boilerplate.Service
         /// <param name="primaryKey">Prmary key to find</param>
         /// <returns>T</returns>
         T SingleOrDefault(Expression<Func<T, bool>> whereCondition);
-
+        
         /// <summary>
         ///  通过给定条件排序字段以及排序方式查询单一值，如果没有返回null
         /// </summary>

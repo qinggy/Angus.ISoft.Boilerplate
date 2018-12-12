@@ -5,10 +5,8 @@ namespace Angus.ISoft.Boilerplate.Infrastructure
     /// <summary>
     /// PassWordDes 的摘要说明
     /// </summary>
-    public class PassWordDes
+    public class PasswordDes
     {
-
-
         /// <summary>
         /// DES 加密
         /// </summary>

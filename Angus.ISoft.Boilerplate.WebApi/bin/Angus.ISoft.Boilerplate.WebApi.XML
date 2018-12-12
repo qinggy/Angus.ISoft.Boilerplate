@@ -483,26 +483,24 @@
         </member>
         <member name="T:Angus.ISoft.Boilerplate.WebApi.Controllers.AccountController">
             <summary>
-            账户
+            账户模块
             </summary>
         </member>
         <member name="M:Angus.ISoft.Boilerplate.WebApi.Controllers.AccountController.Login(System.String,System.String)">
             <summary>
-            登录
+            登录验证
             </summary>
             <param name="username">用户名</param>
             <param name="password">密码</param>
             <returns></returns>
         </member>
-        <member name="T:Angus.ISoft.Boilerplate.WebApi.Core.AuthorizationServerProvider">
+        <member name="M:Angus.ISoft.Boilerplate.WebApi.Controllers.AccountController.GetAccountInfo(System.Guid)">
             <summary>
-            自定义 oauth 的授权验证
+            获取当前账号信息
             </summary>
-        </member>
-        <member name="T:Angus.ISoft.Boilerplate.WebApi.Core.JwtTokenFormat">
-            <summary>
-            自定义 jwt token 的格式 
-            </summary>
+            <param name="accountId">账号编码</param>
+            <returns></returns>
+            [JwtAuth]
         </member>
         <member name="T:Angus.ISoft.Boilerplate.WebApi.Core.AutoMapperWebProfile">
             <summary>
@@ -519,12 +517,12 @@
             MVC Controller初始化工厂
             </summary>
         </member>
-        <member name="T:Angus.ISoft.Boilerplate.Infrastructure.PassWordDes">
+        <member name="T:Angus.ISoft.Boilerplate.Infrastructure.PasswordDes">
             <summary>
             PassWordDes 的摘要说明
             </summary>
         </member>
-        <member name="M:Angus.ISoft.Boilerplate.Infrastructure.PassWordDes.EncryptDES(System.String,System.String)">
+        <member name="M:Angus.ISoft.Boilerplate.Infrastructure.PasswordDes.EncryptDES(System.String,System.String)">
             <summary>
             DES 加密
             </summary>
@@ -532,7 +530,7 @@
             <param name="beinetkey">密钥</param>
             <returns></returns>
         </member>
-        <member name="M:Angus.ISoft.Boilerplate.Infrastructure.PassWordDes.DecryptDES(System.String,System.String)">
+        <member name="M:Angus.ISoft.Boilerplate.Infrastructure.PasswordDes.DecryptDES(System.String,System.String)">
             <summary>
             DES 解密
             </summary>
@@ -540,7 +538,7 @@
             <param name="beinetkey">密钥</param>
             <returns></returns>
         </member>
-        <member name="M:Angus.ISoft.Boilerplate.Infrastructure.PassWordDes.stringToHex(System.String)">
+        <member name="M:Angus.ISoft.Boilerplate.Infrastructure.PasswordDes.stringToHex(System.String)">
             <summary>
             把字符串转换为16进制字符串
             如：a变成61（即10进制的97）；abc变成616263
@@ -548,7 +546,7 @@
             <param name="s"></param>
             <returns></returns>
         </member>
-        <member name="M:Angus.ISoft.Boilerplate.Infrastructure.PassWordDes.HexTostring(System.String)">
+        <member name="M:Angus.ISoft.Boilerplate.Infrastructure.PasswordDes.HexTostring(System.String)">
             <summary>
             16进制字符串转换为字符串
             如：61（即10进制的97）变成a；616263变成abc
@@ -556,7 +554,7 @@
             <param name="s"></param>
             <returns></returns>
         </member>
-        <member name="M:Angus.ISoft.Boilerplate.Infrastructure.PassWordDes.RM(System.Int32,System.Int32)">
+        <member name="M:Angus.ISoft.Boilerplate.Infrastructure.PasswordDes.RM(System.Int32,System.Int32)">
             <summary>
             带符号位右移（类似于js的>>>）
             </summary>
@@ -564,7 +562,7 @@
             <param name="bit">右移位数</param>
             <returns></returns>
         </member>
-        <member name="M:Angus.ISoft.Boilerplate.Infrastructure.PassWordDes.des(System.String,System.String,System.Boolean,System.Boolean,System.String)">
+        <member name="M:Angus.ISoft.Boilerplate.Infrastructure.PasswordDes.des(System.String,System.String,System.Boolean,System.Boolean,System.String)">
             <summary>
             加解密主调方法
             </summary>
@@ -575,7 +573,7 @@
             <param name="iv">初始化向量</param>
             <returns></returns>
         </member>
-        <member name="M:Angus.ISoft.Boilerplate.Infrastructure.PassWordDes.des_createKeys(System.String)">
+        <member name="M:Angus.ISoft.Boilerplate.Infrastructure.PasswordDes.des_createKeys(System.String)">
             <summary>
             this takes as input a 64 bit beinetkey(even though only 56 bits are used)
             as an array of 2 integers,and returns 16 48 bit keys

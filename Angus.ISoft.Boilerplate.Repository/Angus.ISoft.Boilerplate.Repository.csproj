@@ -53,7 +53,7 @@
     <Compile Include="EntityMapping.cs" />
     <Compile Include="IEntityMapping.cs" />
     <Compile Include="ISoftDbContext.cs" />
-    <Compile Include="Mappings\DemoMapping.cs" />
+    <Compile Include="Mappings\AccountMapping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

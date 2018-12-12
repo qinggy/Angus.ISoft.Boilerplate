@@ -113,3 +113,4 @@ C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi.Tests\bin\Debug\
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi.Tests\bin\Debug\Angus.ISoft.Boilerplate.ServiceImpl.pdb
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi.Tests\bin\Debug\Angus.ISoft.Boilerplate.Repository.pdb
 C:\Workspace\backend\Boilerplate\Angus.ISoft.Boilerplate.WebApi.Tests\bin\Debug\EntityFramework.xml
+C:\Workspace\backend\boilerplate\Angus.ISoft.Boilerplate.WebApi.Tests\obj\Debug\Angus.ISoft.Boilerplate.WebApi.Tests.csproj.CoreCompileInputs.cache

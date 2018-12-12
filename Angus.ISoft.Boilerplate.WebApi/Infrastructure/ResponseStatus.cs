@@ -8,8 +8,6 @@
 *修改说明：
 *创建时间：2016/11/8 13:53:23
 *更新时间：
-***********************************************************************************
-                                * Copyright (c) ISoft 2017. All rights reserved.
 ***********************************************************************************/
 
 using System;
@@ -20,18 +18,10 @@ using System.Web;
 
 namespace Angus.ISoft.Boilerplate.Infrastructure
 {
-    [DataContract]
     public class ResponseStatus
     {
-        [DataMember]
         public bool IsSuccess { get; set; }
-        [DataMember]
         public object Content { get; set; }
-        [DataMember]
         public string Code { get; set; }
-        [DataMember]
-        public string RedirectUrl { get; set; }
-        [DataMember]
-        public string Remark { get; set; }
     }
 }

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Angus.ISoft.Boilerplate.DbModel
 {
-    public class DemoClass : Entity
+    public class Account : Entity
     {
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
     }
 }

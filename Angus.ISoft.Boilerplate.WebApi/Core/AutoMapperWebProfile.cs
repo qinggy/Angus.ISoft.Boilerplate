@@ -17,7 +17,10 @@ namespace Angus.ISoft.Boilerplate.WebApi.Core
         {
             AutoMapper.Mapper.Initialize(cfg =>
             {
-                cfg.CreateMap<DemoClass, DemoClassDto>();
+                cfg.CreateMap<Account, AccountDto>();
+
+
+
                 cfg.AddProfile<AutoMapperWebProfile>();
             });
         }

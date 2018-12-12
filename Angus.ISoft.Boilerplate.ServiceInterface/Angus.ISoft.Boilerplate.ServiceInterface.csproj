@@ -38,6 +38,9 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="EsdPec.Cloud.Domain">
+      <HintPath>..\..\Esd.Report.AutoGenerate\Esd.Report.AutoGenerate.Form\dll\EsdPec.Cloud.Domain.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -49,8 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IBaseService.cs" />
-    <Compile Include="IDemoService.cs" />
-    <Compile Include="IDemoService1.cs" />
+    <Compile Include="IAccountService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +63,10 @@
     <ProjectReference Include="..\Angus.ISoft.Boilerplate.DbModel\Angus.ISoft.Boilerplate.DbModel.csproj">
       <Project>{8369aee7-1237-454f-99f9-ed075e0758f4}</Project>
       <Name>Angus.ISoft.Boilerplate.DbModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Angus.ISoft.Boilerplate.Domain\Angus.ISoft.Boilerplate.Domain.csproj">
+      <Project>{A62DEF01-8552-42B2-812C-D1F51F1DE0BB}</Project>
+      <Name>Angus.ISoft.Boilerplate.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\Angus.ISoft.Boilerplate.Infrastructure\Angus.ISoft.Boilerplate.Infrastructure.csproj">
       <Project>{77f95b82-60e4-4f7e-931c-b46b38acc88a}</Project>
