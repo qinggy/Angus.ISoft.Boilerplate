@@ -26,6 +26,12 @@ namespace Angus.ISoft.Boilerplate.WebApi.Controllers
             accountService = _accountService;
         }
 
+        protected override void Dispose(bool disposing)
+        {
+            accountService.Dispose();
+            base.Dispose(disposing);
+        }
+
         /// <summary>
         /// 登录验证
         /// </summary>
